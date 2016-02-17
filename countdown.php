@@ -1,0 +1,1 @@
+<?php require_once "/functions/functions.php";extract($_POST);$result = getCountDown($surveyId);$countDown = $result->d.":".$result->h.":".$result->i.":".$result->s;echo $countDown;?>
